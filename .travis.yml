@@ -4,12 +4,12 @@ env:
   global:
    # The next declaration is the encrypted COVERITY_SCAN_TOKEN, created
    #   via the "travis encrypt" command using the project repo's public key
-   - secure: "Fm0s6ZSyamYLROL9txmciPKBy7Xg2Il4yqeioV1pL0eVF+JYAvW5j7NMqlKzqApj+YqD0zGQs5KNQUkg/N1BF+zWZNNGIc7lU3swPZ74TrDwNyTPGNLttpnrTJi4p+yzBnmzOHnh86vWmvgsZIjnIAZgUTrGLyVu68IjxfaekXY="
+   - secure: "bRk3D21rG1VOR3/83KX7+kqJEZMUkTCAI2yq4wKVVo3ha0SDFyFZjyIeGeTZlEjJVcK4vHvfYrV0Xy1M5TuotuA5qXqb1ETtEQ2LZ9IaX5LIwMS/2sKapJTU5rcEnXGHGMvemTE76denCGnztGGQn3oKR+72iohVwb6/3dFBvBQ="
 
 addons:
   coverity_scan:
     project:
-      name: "konradrenner/stammdaten"
+      name: "konradrenner/KoreMenuJPA"
       description: "Your project description here"
     notification_email: koni.renner@gmail.com
     build_command_prepend:
